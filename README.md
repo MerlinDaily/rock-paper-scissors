@@ -20,8 +20,8 @@ A set of instructions is provided in the [assignment section](https://www.theodi
 
 ### Links
 
-- Repo URL: [live site URL here](https://github.com/MerlinDaily/rock-paper-scissors)
-<!-- - Live Site URL: [live site URL here](https://github.com/MerlinDaily/rock-paper-scissors) -->
+- [Repo URL](https://github.com/MerlinDaily/rock-paper-scissors)
+<!-- - [live site URL here](https://github.com/MerlinDaily/rock-paper-scissors) -->
 
 ### Useful resources
 
