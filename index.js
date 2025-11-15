@@ -11,6 +11,7 @@ function getComputerChoice() {
 	return choice;
 }
 
+//TODO: Handle input error,
 function getHumanChoice() {
 	const choice = prompt("Rock-Paper-Scissors?", "paper").toLowerCase();
 	return choice;
@@ -50,7 +51,11 @@ function playRound(comChoice, userChoice) {
 }
 
 function showResult() {
-	userScore > comScore ? console.log(`Game won`) : console.log(`Game lost`);
+	userScore > comScore
+		? console.log(`GAME WON`)
+		: userScore < comScore
+		? console.log(`GAME LOST`)
+		: console.log(TIE);
 }
 
 function playGame() {
@@ -62,3 +67,4 @@ function playGame() {
 }
 
 playGame();
+showResult();
